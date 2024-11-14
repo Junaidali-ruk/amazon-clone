@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hover */
+.box{
+    border: 2px solid transparent;
+}
+
+.box:hover{
+    border: 1.5px solid white;
+    transition: 0.3s;
+}
+/* ------------------------------------------------------------nav start/ */
+.nav-bar{
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+
+}
+
+/* nav-box1 */
+.nav-box1{
+    background-image: url(amazon_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 113px;
+}
+
+/* nav-box2 */
+.nav-box2{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.box2-left i{
+    padding-top: 20px;
+}
+
+.box2-right{
+    margin-left: 8px;
+}
+
+.first-box2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+}
+.second-box2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* nav-box3 */
+.nav-box3{
+    display: flex;
+    margin-left: 10px;
+    width: 630px;
+   
+    justify-content: space-evenly;
+}
+.nav-select{
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-input{
+    height: 40px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.box3-icon{
+    width: 45px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd69;
+}
+
+/* nav-box4 */
+.nav-box4{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.nav-box4 img{
+    height: 18px;
+    width: 21px;
+    margin-right: 5px;
+}
+.box4-select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #0F1111;
+    color: white;
+    border: none;
+}
+
+/* nav-box5 */
+.nav-box5{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+.box-first{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-second{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+/* nax-box6 */
+.nav-box6{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+/* navbox7 */
+.nav-box7{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center; 
+}
+
+.nav-box7 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+/* -------------------------------------------------------------nav end---- */
+
+/* panels starts */
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-left{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom:4px;
+    font-weight: 700;
+}
+.panel-left p{
+    margin-left: 5px;
+}
+.panel-middle{
+    margin-left: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+
+}
+.panel-middle p{
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.panel-right{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 200px;
+}
+/* -----------------------panel ends */
+
+/* hero section */
+.hero{
+    background-image:url(hero-section-image.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-box{
+    background-color: #f5f6f6;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/* hero section ends */
+
+/* shopping box */
+
+.shopping{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    background-color: #f4ebd4;
+    padding: 10px 20px;
+}
+.shop-box{
+    width: 290px;
+    height: 420px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+}
+.box-content{
+    margin: 20px 10px;
+}
+.box-content h1{
+font-size: 21px;
+font-weight: 700;
+color: black;
+margin-bottom: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.box-content img{
+    width:280px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/* shopping end  */
+.top{
+    height: 40px;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.customer-footer{
+    background-color: #232f3e;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cust-first{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.cust-Second{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
